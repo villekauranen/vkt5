@@ -1,0 +1,105 @@
+html {
+	font-family: Courier New;
+	background-color: #333;
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-weight: lighter;
+	font-size: 72px;
+	margin: 0px;
+}
+h2 {
+	font-size: 24px;
+	font-weight: lighter;
+	margin: 0px;
+}
+hr {
+	display: block;
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+	border-width: 1px;
+}
+div.board {
+	margin: auto;
+	display: flex;
+	background-color: #888;
+	justify-content: center;
+	align-items: center;
+	width: 360px;
+	height: 360px;
+	color: black; /* voi poistaa jossai kohtaa */
+}
+table {
+	padding: 5px;
+	background-color: #eee;
+}
+td.h-line {
+	width: 100px;
+	height: 5px;
+	background-color: #111;
+}
+td.v-line {
+	width: 5px;
+	height: 100px;
+	background-color: #111;
+}
+td.joint {
+	width: 5px;
+	width: 5px;
+	background-color: #111;
+}
+.bold {
+	font-weight: bold;
+}
+.red {
+	color: #ff5050;
+}
+.blue {
+	color: #3399ff;
+}
+.marker {
+	font-size: 96px;
+}
+.v {
+	font-size: 12px;
+}
+div.info {
+	margin: auto;
+	width: 280px;
+	padding: 8px 0px;
+	background-color: #eee;
+	text-align: center;
+	vertical-align: middle;
+	color: #000;
+}
+div.reset_button {
+	width: 120px;
+	margin: auto;
+	padding: 10px 12px;
+	text-align: center; 
+	vertical-align: middle;	
+	cursor: pointer;
+	background-color: #555;
+	font-size: 20px;
+}
+div:hover.reset_button {
+	background-color: #eee;
+	color: #000;
+}
+div.box {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	cursor: pointer;
+}
+div:hover.box {
+	background-color: #ccc !important;
+}
+p.footer {
+	font-family: Arial;
+	font-size: 9px;
+}

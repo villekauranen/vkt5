@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<title>eXn0l 1.0</title>
+	<link href="exn0l-style.css" type="text/css" rel="stylesheet">
+	<link rel="icon" href="/content/image/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+	<h1>e<span class="bold red">X</span>n<span class="bold blue">0</span>l<span class="v"> v1.0</span></h1>
+	<h2>Se ehdottomasti paras ristinolla!</h2>
+	<hr>
+		<script type="text/javascript" src="exn0l.js"></script>
+		<noscript>Peli vaatii toimiakseen JavaScriptin!</noscript>
+	<div class="board">
+	<table>
+		<tr>
+			<td class="board"><div id="g00" class="box" onclick="play(0,0)"></div></td>
+			<td class="v-line"></td>
+			<td class="board"><div id="g01" class="box" onclick="play(0,1)"></div></td>
+			<td class="v-line"></td>
+			<td class="board"><div id="g02" class="box" onclick="play(0,2)"></div></td>
+		</tr>
+		<tr>
+			<td class="h-line"></td>
+			<td class="joint"></td>
+			<td class="h-line"></td>
+			<td class="joint"></td>
+			<td class="h-line"></td>
+		</tr>
+		<tr>
+			<td class="board"><div id="g10" class="box" onclick="play(1,0)"></div></td>
+			<td class="v-line"></td>
+			<td class="board"><div id="g11" class="box" onclick="play(1,1)"></div></td>
+			<td class="v-line"></td>
+			<td class="board"><div id="g12" class="box" onclick="play(1,2)"></div></td>
+		</tr>
+		<tr>
+			<td class="h-line"></td>
+			<td class="joint"></td>
+			<td class="h-line"></td>
+			<td class="joint"></td>
+			<td class="h-line"></td>
+		</tr>
+		<tr>
+			<td class="board"><div id="g20" class="box" onclick="play(2,0)"></div></td>
+			<td class="v-line"></td>
+			<td class="board"><div id="g21" class="box" onclick="play(2,1)"></div></td>
+			<td class="v-line"></td>
+			<td class="board"><div id="g22" class="box" onclick="play(2,2)"></div></td>
+		</tr>
+	</table>
+	</div>
+	<br>
+	<div class="info" id="info_area">
+		<span id="info_container">
+			Pelaajan <span class="bold red">X</span> vuoro!
+		</span>
+	</div>
+	<br>
+	<div class="reset_button" onclick='resetGame()'>Uusi peli</div>
+	<br>
+	<hr>
+	<p class="footer">&copy Ville Kauranen 2018-9-30</p>
+</body>
+</html>
